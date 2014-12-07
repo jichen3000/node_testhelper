@@ -1,0 +1,19 @@
+{
+  "name": "testhelper",
+  "version": "0.0.1",
+  "description": "A package offering some useful methods for all object.",
+  "main": "testhelper.js",
+  "scripts": {
+    "test": "node test/test_testhelper.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jichen3000/node_testhelper.git"
+  },
+  "keywords": [
+    "test",
+    "helper"
+  ],
+  "author": "Colin Ji <jichen3000@gmail.com>",
+  "license": "GLP"
+}
