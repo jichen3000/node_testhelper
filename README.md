@@ -16,7 +16,7 @@ Colin Ji <jichen3000@gmail.com>
 
 ### How to install
 
-    numpy install testhelper
+    npm install testhelper
 
 ### How to use
 
@@ -24,7 +24,7 @@ p, print with title. This function will print variable name as the title.
 <br>code:
     
     name = "Test Helper"
-    # add a title 'name : ' automatically.
+    // add a title 'name : ' automatically.
     name.p()                       
 
 print result:

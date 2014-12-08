@@ -1,8 +1,8 @@
 {
   "name": "testhelper",
-  "version": "0.0.1",
-  "description": "A package offering some useful methods for all object.",
-  "main": "testhelper.js",
+  "version": "0.0.2",
+  "description": "Some print helper methods like p, pl, pp, ppl for testing.",
+  "main": "lib/testhelper.js",
   "scripts": {
     "test": "node test/test_testhelper.js"
   },
