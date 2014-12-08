@@ -1,3 +1,4 @@
+0. test using test/test_testhelper.js
 1. change CHANGES.md to add note.
 2. change package.json for version
 3. check if need to change README.md
@@ -5,3 +6,7 @@
 npm publish
 5. git push
 git-push-all '0.0.1'
+6. install or update local npm package
+npm install testhelper
+npm update testhelper
+7. test using test/test_publish.js
