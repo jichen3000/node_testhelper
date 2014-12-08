@@ -31,3 +31,17 @@ print result:
 
     name : Test Helper
 
+ptl, print with title and code loction. This function just like pt, but will print
+the code location at the first line.
+And some editors support to go to the line of that file, such as Sublime2.
+Notice: it will print a null line before the location information.
+<br>code:
+    
+    name = "Test Helper"
+    // add a title 'name : ' automatically.
+    name.ptl()   
+
+print result:
+
+      File "/Users/colin/work/node_testhelper/lib/testhelper.js", line 21, in <anonymous>
+    name : Test Helper
