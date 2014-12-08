@@ -23,25 +23,69 @@ Colin Ji <jichen3000@gmail.com>
 p, print with title. This function will print variable name as the title.
 <br>code:
     
-    name = "Test Helper"
-    // add a title 'name : ' automatically.
-    name.p()                       
+    obj = {foo:"bar", baz: {aa:1, bb:2}};
+    // add a title 'obj' automatically.
+    obj.p()
 
 print result:
 
-    name : Test Helper
+    obj : { foo: 'bar', baz: { aa: 1, bb: 2 } }
 
-ptl, print with title and code loction. This function just like pt, but will print
+pl, print with title and code loction. This function just like pt, but will print
 the code location at the first line.
 And some editors support to go to the line of that file, such as Sublime2.
 Notice: it will print a null line before the location information.
 <br>code:
     
-    name = "Test Helper"
-    // add a title 'name : ' automatically.
-    name.ptl()   
+    obj = {foo:"bar", baz: {aa:1, bb:2}};
+    // add a empty line, and a code position line.
+    // add a title 'obj' automatically.
+    obj.pl()
 
 print result:
 
+
       File "/Users/colin/work/node_testhelper/lib/testhelper.js", line 21, in <anonymous>
     name : Test Helper
+
+pp, prety print with title. This function will print variable name as the title.
+<br>code:
+    
+    obj = {foo:"bar", baz: {aa:1, bb:2}};
+    // add a title 'obj' automatically.
+    obj.pp()
+
+print result:
+
+    obj : 
+    {
+      "foo": "bar",
+      "baz": {
+        "aa": 1,
+        "bb": 2
+      }
+    }
+
+ppl, pretty print with title and code loction. This function just like pt, but will print
+the code location at the first line.
+And some editors support to go to the line of that file, such as Sublime2.
+Notice: it will print a null line before the location information.
+<br>code:
+    
+    obj = {foo:"bar", baz: {aa:1, bb:2}};
+    // add a empty line, and a code position line.
+    // add a title 'obj' automatically.
+    obj.ppl()
+
+print result:
+
+
+      File "/Users/colin/work/node_testhelper/lib/testhelper.js", line 52, in <anonymous>
+    obj : 
+    {
+      "foo": "bar",
+      "baz": {
+        "aa": 1,
+        "bb": 2
+      }
+    }
