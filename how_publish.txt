@@ -1,0 +1,7 @@
+1. change CHANGES.md to add note.
+2. change package.json for version
+3. check if need to change README.md
+4. run npm command to publish
+npm publish
+5. git push
+git-push-all '0.0.1'

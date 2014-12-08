@@ -1,4 +1,3 @@
-// npm publish
 require('testhelper');
 
 if (require.main === module) {
