@@ -1,3 +1,7 @@
+### 1.0.1 (2014-12-08)
+
+- Correct a typo in README.md.
+
 ### 1.0.0 (2014-12-08)
 
 - Add `pp` and `ppl` method.

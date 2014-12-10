@@ -46,7 +46,7 @@ print result:
 
 
       File "/Users/colin/work/node_testhelper/lib/testhelper.js", line 21, in <anonymous>
-    name : Test Helper
+    obj : { foo: 'bar', baz: { aa: 1, bb: 2 } }
 
 pp, prety print with title. This function will print variable name as the title.
 <br>code:
