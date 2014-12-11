@@ -1,3 +1,7 @@
+### 1.4.0 (2014-12-11)
+
+- Support print NaN as 'NaN'.
+
 ### 1.3.1 (2014-12-10)
 
 - p, pl functions support print number value.
