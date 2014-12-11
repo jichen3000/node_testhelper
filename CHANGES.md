@@ -1,3 +1,11 @@
+### 1.2.1 (2014-12-08)
+
+- Let p, pl, pp, ppl functions are not enumerable.
+
+### 1.1.1 (2014-12-08)
+
+- Print function content as a string, not [Function]
+
 ### 1.0.1 (2014-12-08)
 
 - Correct a typo in README.md.
