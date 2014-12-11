@@ -89,3 +89,14 @@ print result:
         "bb": 2
       }
     }
+
+Notice, for the number, please use the functions like the below:
+
+    (123).p()
+
+and, these functions are not numerable for the object, which means:
+
+  var a_obj = {bb:1};
+  for (key in a_obj) console.log(key);
+
+would not print the 'p','pl' these functions in the object.

@@ -1,8 +1,12 @@
-### 1.2.1 (2014-12-08)
+### 1.3.1 (2014-12-10)
 
-- Let p, pl, pp, ppl functions are not enumerable.
+- p, pl functions support print number value.
 
-### 1.1.1 (2014-12-08)
+### 1.2.1 (2014-12-10)
+
+- Let p, pl, pp, ppl functions are not enumerable for object.
+
+### 1.1.1 (2014-12-10)
 
 - Print function content as a string, not [Function]
 

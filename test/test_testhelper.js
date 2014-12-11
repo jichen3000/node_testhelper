@@ -16,9 +16,9 @@ if (require.main === module) {
   for (key in a) console.log(key);
 
   // number is not yet supported
-  // 1.pp();
+  1.p();
   (typeof 1).pp();
-  "123".pp();
+  "123".p();
   true.pp();
 
   var the_func = function (argument) {
