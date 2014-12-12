@@ -1,3 +1,7 @@
+### 1.5.2 (2014-12-12)
+
+- Correct pring NaN in pp, and add assert all output.
+
 ### 1.5.1 (2014-12-12)
 
 - Print string normally.
