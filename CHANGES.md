@@ -1,3 +1,7 @@
+### 1.5.0 (2014-12-11)
+
+- Support print true and false in p function.
+
 ### 1.4.0 (2014-12-11)
 
 - Support print NaN as 'NaN'.

@@ -1,7 +1,8 @@
  ☐ support null.
- ☐ support NaN
+ ☐ support Boolean.
 
 ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
 Archive:
+ ✔ support NaN @done (14-12-11 20:38)
  ✔ support primitive type int. @done (14-12-10 20:57)
  ✔ avoid directly extend Object.prototype. @done (14-12-10 19:01)
