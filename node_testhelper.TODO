@@ -1,8 +1,10 @@
- ☐ support null.
- ☐ support Boolean.
+ ☐ support null. I've tried, but it seems although typeof null is object, null actually cannot call any function at all. How to overcome it?
+ ☐ support test of print.
 
 ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
 Archive:
+ ✔ String: "ok".p(); will print: "ok" : { '0': 'o', '1': 'k' } @done (14-12-12 06:37)
+ ✔ support Boolean. @done (14-12-11 20:47)
  ✔ support NaN @done (14-12-11 20:38)
  ✔ support primitive type int. @done (14-12-10 20:57)
  ✔ avoid directly extend Object.prototype. @done (14-12-10 19:01)

@@ -1,3 +1,7 @@
+### 1.5.1 (2014-12-12)
+
+- Print string normally.
+
 ### 1.5.0 (2014-12-11)
 
 - Support print true and false in p function.
