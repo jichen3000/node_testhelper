@@ -1,6 +1,6 @@
 {
   "name": "testhelper",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "description": "Some print helper methods like p, pl, pp, ppl for testing.",
   "main": "lib/testhelper.js",
   "scripts": {

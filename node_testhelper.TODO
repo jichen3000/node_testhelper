@@ -1,8 +1,8 @@
  ☐ support null. I've tried, but it seems although typeof null is object, null actually cannot call any function at all. How to overcome it?
- ☐ check array
-
 ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
 Archive:
+ ✔ refactor the commons @done (14-12-17 06:20)
+ ✔ check array @done (14-12-17 06:20)
  ✔ support test of print. @done (14-12-12 09:57)
  ✔ String: "ok".p(); will print: "ok" : { '0': 'o', '1': 'k' } @done (14-12-12 06:37)
  ✔ support Boolean. @done (14-12-11 20:47)

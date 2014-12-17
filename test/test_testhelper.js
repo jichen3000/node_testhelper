@@ -16,10 +16,12 @@ if (require.main === module) {
   for (key in a) console.log(key);
 
   // number is not yet supported
-  1.p();
+  (1).p();
   (typeof 1).pp();
   "123".p();
   true.pp();
+  [1,2].p();
+  [[1,2]].pp();
 
   var the_func = function (argument) {
       argument.pp();

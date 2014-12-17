@@ -1,6 +1,10 @@
+### 1.5.3 (2014-12-17)
+
+- Correct print array, and refactor, now separate the commons.js.
+
 ### 1.5.2 (2014-12-12)
 
-- Correct pring NaN in pp, and add assert all output.
+- Correct print NaN in pp, and add assert all output.
 
 ### 1.5.1 (2014-12-12)
 
